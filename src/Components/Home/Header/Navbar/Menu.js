@@ -20,7 +20,7 @@ const Menu = () => {
           <Link className="mr-5" to="/projects">
             Projects
           </Link>
-          <Link className="mr-5" to="/dashboard/1">
+          <Link className="mr-5" to="/dashboard/id">
             Dashboard
           </Link>
           <Link className="mr-5" to="/login">

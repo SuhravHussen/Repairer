@@ -17,6 +17,7 @@ import GiveReview from './Components/DashBoard/GiveReview/GiveReview';
 import AddAdmin from './Components/DashBoard/AddAdmin/AddAdmin';
 import AllOrders from './Components/DashBoard/AllBookings/AllBooking';
 import AddService from './Components/DashBoard/AddService/AddService';
+import Booknow from './Components/DashBoard/Booknow/Booknow';
 
 
 export const userContext = createContext({})

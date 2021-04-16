@@ -13,14 +13,21 @@ const DashBoard = () => {
    },[])
     
   
+  
     return (
         <section className="dashBoard">
           <div className="sidebar">
 <Sidebar></Sidebar>
           </div>
           <div className="book">
-              <h1>Payment for {service.name}</h1>
+          { id!=='id' && <div>  <h1>Payment for {service.name}</h1>
            <Booknow data={service} ></Booknow>
+           </div>}
+           {
+             id =='id' && <div>
+               <h1>Please Select any Service</h1>
+             </div>
+           }
           </div>
         </section>
     );

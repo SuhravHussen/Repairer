@@ -11,6 +11,9 @@ const Booknow = ({data} ) => {
 
     
   return (
+
+
+    
     <Elements stripe={stripePromise}>
       <Cardform data={data}></Cardform>
     </Elements>
