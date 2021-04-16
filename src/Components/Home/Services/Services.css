@@ -1,0 +1,20 @@
+.all-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6%;
+}
+.services-container h1{
+    color: red;
+    margin: 35px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+}

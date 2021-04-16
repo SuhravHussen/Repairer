@@ -1,0 +1,15 @@
+.dashBoard{
+    display: flex;
+}
+.sidebar{
+    background-image: linear-gradient(to right, #ed213a, #93291e);
+    width: 20%;
+    color: white;
+}
+.book{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 5%;
+}

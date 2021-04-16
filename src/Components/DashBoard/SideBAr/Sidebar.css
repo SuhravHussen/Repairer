@@ -1,0 +1,19 @@
+.sidebar-container{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.sidebar-container ul{
+ font-size: 26px;
+list-style: none;
+    
+}
+.sidebar-container ul li{
+    padding: 10px;
+}
+.sidebar-container ul img{
+    height: 34px;
+    ;
+}
