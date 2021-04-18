@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 
 import Service from './Service/Service';
 import './Services.css'
-import fakeData from '../../../fakedata'
 const Services = () => {
    const [services , setServices] = useState([])
    useEffect(()=>{
-       setServices(fakeData)
+    fetch("https://safe-depths-29401.herokuapp.com/services")
+    .then(res=>res.json())
+    .then(data=>setServices(data))
    },[])
     return (
         <div className="services-container">

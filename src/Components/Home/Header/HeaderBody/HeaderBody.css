@@ -16,6 +16,7 @@
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+  
 } 
 .header-body-right{
     width: 40%;
@@ -28,4 +29,17 @@
     padding: 10px;
     color: white;
     background-image: linear-gradient(to right, #ed213a, #93291e);
+}
+
+@media only screen and (max-width: 480px) {
+    .header-body{
+        flex-direction: column;
+    }
+    .header-body-left{
+        width: 70%;
+    }
+    .header-body-right img {
+        width: 100%;
+        margin-top: 25px;
+    }
 }

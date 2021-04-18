@@ -13,16 +13,15 @@ const GiveReview = () => {
   const [userInfo, setUserInfo] = useContext(userContext);
   const [review, setReview] = useState({});
 
-
   const onSubmit = (data) => {
-      console.log(userInfo);
-      
-    const myReview={
-        name: userInfo.name,
-        photo:userInfo.img,
-        review:data.review
-    }
-    fetch("http://localhost:4000/addReview", {
+    console.log(userInfo);
+
+    const myReview = {
+      name: userInfo.name,
+      photo: userInfo.img,
+      review: data.review,
+    };
+    fetch("https://safe-depths-29401.herokuapp.com/addReview", {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -1,0 +1,87 @@
+.aboutus-section {
+    padding: 90px 0;
+}
+
+.single-service{
+    height: 270px;
+}
+
+.aboutus-text {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+
+a:hover, a:active {
+    color: #01ff01;
+    text-decoration: none;
+    outline: 0;
+}
+.aboutus-more {
+    border: 1px solid #fdb801;
+    border-radius: 25px;
+    color: #fdb801;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.feature .feature-box .iconset::after {
+    background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+.style-1 .single-service {
+    text-align: center;
+    padding: 25px 40px;
+    box-shadow: 0 5px 30px -5px #ccc;
+    padding-bottom:20px
+  }
+  .style-1 .single-service i.fa {
+    color: #0bbbc1;
+    font-size: 40px;
+    margin: 20px 0;
+  }
+.border-btn{
+    background-color:steelblue;;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.facility-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+.facility-container h1{
+    color:#275a86;
+    padding-bottom: 10px;
+
+    border-bottom: 5px solid steelblue;
+    margin-bottom: 3%;
+}

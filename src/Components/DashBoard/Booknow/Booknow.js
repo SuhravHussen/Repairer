@@ -7,13 +7,8 @@ import Cardform from "../CardForm/Cardform";
 const stripePromise = loadStripe(
   "pk_test_51IgRHzETgcpaw1ztz26qPxAnhB7D7l4HBnCnxwOA9b9mzBsgAUH1jnDCZHusNwdf8cm3TzxNNrx6bylIj2M3odCM00Dg5EsIht"
 );
-const Booknow = ({data} ) => {
-
-    
+const Booknow = ({ data }) => {
   return (
-
-
-    
     <Elements stripe={stripePromise}>
       <Cardform data={data}></Cardform>
     </Elements>

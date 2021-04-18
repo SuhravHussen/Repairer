@@ -1,0 +1,44 @@
+.social-link {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #ddd; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+  .img-fluid{
+      height: 105px;
+  }
+  .single-member{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+  }
+  .team-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+  }
+  .team-container h1{
+      color: green;
+      padding-bottom: 7px;
+      border-bottom: 5px solid green;
+      
+  }
+  .row{
+      justify-content: center;
+  }
+  .h3{
+      font-size: 25px !important;
+  }
