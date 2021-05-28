@@ -1,0 +1,15 @@
+.menu-item{
+    color: white;
+    background: red;
+    padding: 8px;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 980px){
+    a.mr-5 {
+        margin-bottom: 40px;
+    }
+    .ml-auto.text-dark.navbar-nav {
+        margin-top: 20px;
+    }
+}

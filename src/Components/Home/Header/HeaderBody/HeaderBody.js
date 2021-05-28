@@ -13,7 +13,7 @@ const HeaderBody = () => {
           blanditiis itaque neque error eveniet.
         </small>
         <br />
-        <button className="Primary-btn"> Book NOW!</button>
+        <button className="Primary-btn"> Read More!</button>
       </div>
       <div className="header-body-right">
         <img src={headImg} alt="" />

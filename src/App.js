@@ -18,6 +18,7 @@ import AddAdmin from './Components/DashBoard/AddAdmin/AddAdmin';
 import AllOrders from './Components/DashBoard/AllBookings/AllBooking';
 import AddService from './Components/DashBoard/AddService/AddService';
 import Booknow from './Components/DashBoard/Booknow/Booknow';
+import Swiperr from './Swiper';
 
 
 export const userContext = createContext({})
@@ -34,6 +35,9 @@ function App() {
      </Route>
      <Route  path='/login'>
      <Login></Login>
+     </Route>
+     <Route  path='/swiper'>
+     <Swiperr/>
      </Route>
      <PrivateRoute path="/dashboard/:id">
        <DashBoard></DashBoard>
